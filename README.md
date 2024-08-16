@@ -4,7 +4,7 @@ Este repositorio contiene un ejemplo de cómo desplegar máquinas virtuales en P
 
 ## Requisitos
 - Proxmox VE con API habilitada.
-- Terraform instalado.
+- Terraform instalado (puede estar en tu máquina local o en un servidor con acceso a Proxmox).
 - Plantilla Cloud-Init en Proxmox (ver enlaces abajo para su creación).
 
 ## Instrucciones
@@ -55,3 +55,6 @@ El recurso principal en este repositorio es proxmox_vm_qemu, utilizado para crea
 - [Creación de una plantilla Cloud-Init en Proxmox - Medium](https://medium.com/@aj.abdelwahed/proxmox-creating-a-cloud-init-template-in-proxmox-55d1d1570e12)
 - [Guía paso a paso: Crear una imagen Cloud-Init lista para usar en Proxmox](https://akashrajvanshi.medium.com/step-by-step-guide-creating-a-ready-to-use-ubuntu-cloud-image-on-proxmox-03d057f04fb2)
 - [Generación de token en Proxmox para uso con Terraform](https://spacelift.io/blog/terraform-proxmox-provider)
+
+## Nota
+No es necesario tener Proxmox instalado localmente. Puedes utilizar Visual Studio Code con el plugin de Terraform para ejecutar el código, siempre y cuando el sistema desde donde ejecutes Terraform tenga acceso a la red donde se encuentra el clúster Proxmox.
