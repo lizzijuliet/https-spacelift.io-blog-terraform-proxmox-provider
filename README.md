@@ -39,12 +39,15 @@ Generación de token en Proxmox para uso con Terraform
 
 ## Variables Clave
 
-api_url: URL de la API de Proxmox.
-token_id: ID del token para autenticar la API de Proxmox.
-token_secret: Secreto del token para autenticar la API.
-proxmox_host: Nodo de Proxmox donde se desplegará la VM.
-ssh_key: Clave pública SSH para acceder a las VMs.
-template_ubuntu: Nombre de la plantilla Cloud-Init que se utilizará para clonar las VMs.
+## Variables Clave
+
+- `api_url`: URL de la API de Proxmox.
+- `token_id`: ID del token para autenticar la API de Proxmox.
+- `token_secret`: Secreto del token para autenticar la API.
+- `proxmox_host`: Nodo de Proxmox donde se desplegará la VM.
+- `ssh_key`: Clave pública SSH para acceder a las VMs.
+- `template_ubuntu`: Nombre de la plantilla Cloud-Init que se utilizará para clonar las VMs.
+
 
 ## Recursos de Terraform
 
