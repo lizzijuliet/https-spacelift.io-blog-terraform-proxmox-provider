@@ -61,3 +61,14 @@ El recurso principal en este repositorio es proxmox_vm_qemu, utilizado para crea
 
 ## Nota
 No es necesario tener Proxmox instalado localmente. Puedes utilizar Visual Studio Code con el plugin de Terraform para ejecutar el código, siempre y cuando el sistema desde donde ejecutes Terraform tenga acceso a la red donde se encuentra el clúster Proxmox.
+
+## Extensión de Terraform para Visual Studio Code
+
+Para una mejor experiencia al trabajar con Terraform en Visual Studio Code, puedes usar la siguiente extensión:
+
+- **Nombre:** Terraform
+- **ID:** 4ops.terraform
+- **Descripción:** Soporte para el lenguaje de configuración Terraform (incluye Terragrunt)
+- **Versión:** 0.2.5
+- **Editor:** Anton Kulikov
+- **Enlace en VS Marketplace:** [Terraform Extension](https://marketplace.visualstudio.com/items?itemName=4ops.terraform)
