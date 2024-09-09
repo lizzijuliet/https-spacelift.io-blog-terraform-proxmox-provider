@@ -72,3 +72,7 @@ Para una mejor experiencia al trabajar con Terraform en Visual Studio Code, pued
 - **Versión:** 0.2.5
 - **Editor:** Anton Kulikov
 - **Enlace en VS Marketplace:** [Terraform Extension](https://marketplace.visualstudio.com/items?itemName=4ops.terraform)
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
